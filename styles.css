@@ -19,7 +19,6 @@ body {
     flex-direction: row;
     justify-content: center;
     background-color: rgb(194, 138, 138);
-    border: solid yellow;
     padding: 50px;
 }
 
@@ -27,31 +26,33 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid greenyellow;
 }
 
 .playerScore {
     padding: 25px;
     font-size: 22px;
-    border: solid black;
 }
 
 .computerScore {
     padding: 25px;
     font-size: 22px;
-    border: solid black;
 }
 
 .playerChoice {
-    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
 .computerChoice {
-    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
 .gameMessage {
-    border: solid black;
 }
 
 button {
