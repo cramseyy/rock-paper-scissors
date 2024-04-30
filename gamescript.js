@@ -46,6 +46,9 @@ rbtn.addEventListener("click", () => {
         computerScoreContent.textContent = "Computer Score: " + computerScoreCount;
     }
 
+   
+    
+
     messageContent.textContent = playRound(userInput, computerChoice);
     cChoiceContent.textContent = "Computer choice: " + computerChoice;
     pChoiceContent.textContent = "Player choice: " + userInput;
